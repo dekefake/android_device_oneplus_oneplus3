@@ -62,7 +62,7 @@ LOCAL_SHARED_LIBRARIES := libipanat
 LOCAL_SHARED_LIBRARIES += libxml2
 LOCAL_SHARED_LIBRARIES += libnfnetlink
 LOCAL_SHARED_LIBRARIES += libnetfilter_conntrack
-LOCAL_SHARED_LIBRARIES += libdhcpcd
+LOCAL_SHARED_LIBRARIES += libdhcpcd-6.8.2
 include $(BUILD_EXECUTABLE)
 
 ################################################################################
