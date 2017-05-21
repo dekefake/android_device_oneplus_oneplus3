@@ -46,7 +46,12 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 TARGET_USES_64_BIT_BINDER := true
 
+ENABLE_SCHEDBOOST := true
 ENABLE_CPUSETS := true
+
+TARGET_POWERHAL_VARIANT := voxpopuli
+TARGET_USES_INTERACTION_BOOST := true
+-include device/voxpopuli/sepolicy/sepolicy.mk
 
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.selinux=enforcing user_debug=31 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=32M@0-0xffffffff androidboot.bootdevice=624000.ufshc
 BOARD_KERNEL_BASE := 0x80000000
