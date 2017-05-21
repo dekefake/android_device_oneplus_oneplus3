@@ -83,9 +83,9 @@
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_kernel_oneplus_msm8996",
+    "remote": "github",
+    "repository": "VertexOS-Devices/android_kernel_oneplus_msm8996",
     "target_path": "kernel/oneplus/msm8996",
-    "revision": "android-7.1"
+    "revision": "RenderZenith"
   }
 ]
