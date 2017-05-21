@@ -88,4 +88,10 @@
     "target_path": "kernel/oneplus/msm8996",
     "revision": "RenderZenith"
   }
+  {
+    "remote": "github",
+    "repository": "VEAS-Project/android_device_voxpopuli",
+    "target_path": "device/voxpopuli",
+    "revision": "msm8996"
+  }
 ]
