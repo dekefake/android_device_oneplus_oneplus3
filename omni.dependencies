@@ -90,7 +90,7 @@
   },
   {
     "remote": "github",
-    "repository": "VEAS-Project/android_device_voxpopuli",
+    "repository": "EAS-Project/android_device_voxpopuli",
     "target_path": "device/voxpopuli",
     "revision": "msm8996"
   }
