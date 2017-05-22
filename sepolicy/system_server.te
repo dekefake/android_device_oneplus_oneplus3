@@ -17,3 +17,4 @@ get_prop(system_server, diag_prop);
 allow system_server perfd_data_file:dir search;
 allow system_server perfd_data_file:sock_file write;
 allow system_server perfd:unix_stream_socket connectto;
+allow system_server unlabeled:file unlink;
