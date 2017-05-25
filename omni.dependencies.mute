@@ -86,7 +86,7 @@
     "remote": "github",
     "repository": "RenderBroken/OP3-LOS-kernel",
     "target_path": "kernel/oneplus/msm8996",
-    "revision": "rk-los-n-eas-master"
+    "revision": "eas-r6-t6"
   },
   {
     "remote": "github",
